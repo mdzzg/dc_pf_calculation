@@ -20,6 +20,8 @@ The modifications done to the oiginal code, done by Kennedy Caisley, are the fol
 
 The database network.db is viewed easily using DB browser for SQLite, available for all platforms. Two tables are defined in the database: bus and branch. (which is included in the repository). The first line of each files contains headers describing the formatting of the input data. 
 
+**Note: If running from ipyhton, please cd into the folder with downloaded files containing network.db and dc_pf_clean.py**
+
 **bus** should be formatted as such:
 
 ```
@@ -39,5 +41,3 @@ Branch, From Bus, To Bus, Branch Suceptance
 3, 1,4,-10
 4, 2,3,-10
 5, 3,4,-10
-
-**Note: If running from ipyhton, please cd into the folder with downloaded files containing network.db and dc_pf_clean.py**
