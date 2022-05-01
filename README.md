@@ -1,4 +1,4 @@
-# DC Power Flow Calculation
+# DC Power Flow Calculation Introduction
 
 DC power-flow non-iterative calculation for a N-bus M-branch power system, based on James D. McCalley book chapter.
 
