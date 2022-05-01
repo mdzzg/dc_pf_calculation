@@ -22,7 +22,7 @@ The database network.db is viewed easily using DB browser for SQLite, available 
 
 **Note: If running from ipyhton, please cd into the folder with downloaded files containing network.db and dc_pf_clean.py**
 
-**bus** should be formatted as such:
+**bus table in network.db** should be formatted as such:
 
 ```
 Bus Number, Per Unit Gen, Per Unit Load
@@ -32,7 +32,7 @@ Bus Number, Per Unit Gen, Per Unit Load
 4,1,0
 ```
 
-**branch** should be formatted as such:
+**branch table in network.db** should be formatted as such:
 
 ```
 Branch, From Bus, To Bus, Branch Suceptance
