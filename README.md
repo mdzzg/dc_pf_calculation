@@ -8,7 +8,7 @@ http://home.engineering.iastate.edu/~jdm/ee553/DCPowerFlowEquations.pdf
 
 Moreover, the code is a fork/improved functionality of the repository at the following link: https://github.com/soummyaroy1/dc-power-flow/blob/master/run.py
 
-The modifications done to the oiginal code, done by Kennedy Caisley, are the following:
+The modifications done to the oiginal code, created by Kennedy Caisley, are the following:
 
 - rather than using flat/text files, SQLite database is utilized for reading the input data, as well as writing the output results, to the same .db file, which is updated after each execution of this code
 
