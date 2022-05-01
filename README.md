@@ -16,5 +16,28 @@ The modifications done to the oiginal code, done by Kennedy Caisley, are the fol
 
 - pandas are used in combination with numpy, in order to obtain streamlined reading and writing using SQLite
 
+# Usage
+
+The database network.db is viewed easily using DB browser for SQLite, available for all platforms. Two tables are defined in the database: bus and branch. (which is included in the repository). The first line of each files contains headers describing the formatting of the input data. 
+
+**bus** should be formatted as such:
+
+```
+Bus Number, Per Unit Gen, Per Unit Load
+1,2,0
+2,2,1
+3,0,4
+4,1,0
+```
+
+**branch** should be formatted as such:
+
+```
+Branch, From Bus, To Bus, Branch Suceptance
+1, 1,2,-10
+2, 1,3,-10
+3, 1,4,-10
+4, 2,3,-10
+5, 3,4,-10
 
 **Note: If running from ipyhton, please cd into the folder with downloaded files containing network.db and dc_pf_clean.py**
